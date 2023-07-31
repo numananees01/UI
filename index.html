@@ -39,10 +39,15 @@
         <div class="nav-item">
           <div class="nav-btn">Contact</div>
         </div>
+        <div class="nav-icon">
+          <img src="assets/menu.png" alt="menu" height="48px" width="48px" />
+        </div>
       </div>
       <!------------------------------- Home Section ----------------------------------->
       <div class="home-section col-lg-9 col-md-9 col-sm-9 col-9 row">
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+        <div
+          class="margin-top-4 col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2"
+        >
           <h5 class="hero hero-sub">Webflow Expert</h5>
           <h1 class="hero hero-main">Making Digital Products</h1>
           <h5 class="hero hero-parra">
@@ -54,7 +59,9 @@
             <div class="hero-btn-2">Contact Me</div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+        <div
+          class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-md-1 order-sm-1 order-1"
+        >
           <!-- for pic -->
           <img src="./assets/bitmap.png" alt="Bitmap" class="img-fluid" />
         </div>
@@ -94,7 +101,7 @@
           <!-- for pic -->
           <img src="./assets/about.png" alt="Bitmap" class="img-fluid" />
         </div>
-        <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+        <div class="margin-top-4 col-lg-5 col-md-12 col-sm-12 col-12">
           <h5 class="hero about-sub">About Webflow</h5>
           <h1 class="hero about-main col-lg-10">
             Website Without The Dev Time
@@ -123,7 +130,9 @@
           <div
             class="about-card d-flex flex-column col-lg-4 col-md-12 col-sm-12 col-12"
           >
-            <img src="assets/Oval.png" alt="logo" height="80px" width="80px" />
+            <span class="oval-logo">
+              <img src="assets/service-bag.png" alt="" />
+            </span>
             <h4 class="design-card-main">Design</h4>
             <h5 class="design-card-parra">
               Agency provides a full service range including technical skills,
@@ -134,7 +143,9 @@
           <div
             class="about-card d-flex flex-column col-lg-4 col-md-12 col-sm-12 col-12"
           >
-            <img src="assets/Oval.png" alt="logo" height="80px" width="80px" />
+            <span class="oval-logo">
+              <img src="assets/service-2.png" alt="" />
+            </span>
             <h4 class="design-card-main">Development</h4>
             <h5 class="design-card-parra">
               Full service range including technical skills, design, business.
@@ -144,7 +155,9 @@
           <div
             class="about-card d-flex flex-column col-lg-4 col-md-12 col-sm-12 col-12"
           >
-            <img src="assets/Oval.png" alt="logo" height="80px" width="80px" />
+            <span class="oval-logo">
+              <img src="assets/service-3.png" alt="" />
+            </span>
             <h4 class="design-card-main">Marketing</h4>
             <h5 class="design-card-parra">
               Technical skills, design, business understanding, ability.
@@ -232,28 +245,38 @@
             <h5 class="tags-each">Illustration<sup>3</sup></h5>
             <h5 class="tags-each">Motion<sup>1</sup></h5>
           </div>
+          <div
+            class="input-container portfolio-select col-md-12 col-sm-12 col-12"
+          >
+            <input
+              type="text"
+              class="form-inp form-select"
+              placeholder="Show All"
+            />
+            <span class="arrow-down-icon">&#9660;</span>
+          </div>
         </div>
 
-        <div class="portfolio-imgs">
+        <div class="portfolio-imgs col-lg-12 col-md-12 col-sm-12 col-12 row">
           <div
             class="portfolio-images-1 col-lg-12 col-md-12 col-sm-12 col-12 row"
           >
             <div class="img-each col-lg-4 col-md-12 col-sm-12 col-12">
-              <img src="assets/sofa.png" alt="sofa" />
+              <img src="assets/sofa.png" alt="sofa" class="img-fluid" />
               <div class="portfolio-badge">
                 <span class="portfolio-badge-head">Design</span>
                 <h3 class="portfolio-badge-main">Sofa</h3>
               </div>
             </div>
             <div class="img-each col-lg-4 col-md-12 col-sm-12 col-12">
-              <img src="assets/keyboard.png" alt="keyboard" />
+              <img src="assets/keyboard.png" alt="keyboard" class="img-fluid" />
               <div class="portfolio-badge">
                 <span class="portfolio-badge-head">Branding</span>
                 <h3 class="portfolio-badge-main">KeyBoard</h3>
               </div>
             </div>
             <div class="img-each col-lg-4 col-md-12 col-sm-12 col-12">
-              <img src="assets/work.png" alt="work" />
+              <img src="assets/work.png" alt="work" class="img-fluid" />
               <div class="portfolio-badge">
                 <span class="portfolio-badge-head">Illustration</span>
                 <h3 class="portfolio-badge-main">Work Media</h3>
@@ -264,21 +287,21 @@
             class="portfolio-images-2 col-lg-12 col-md-12 col-sm-12 col-12 row"
           >
             <div class="img-each col-lg-4 col-md-12 col-sm-12 col-12">
-              <img src="assets/dd.png" alt="dd" />
+              <img src="assets/dd.png" alt="dd" class="img-fluid" />
               <div class="portfolio-badge">
                 <span class="portfolio-badge-head">Motion</span>
                 <h3 class="portfolio-badge-main">DDDone</h3>
               </div>
             </div>
             <div class="img-each col-lg-4 col-md-12 col-sm-12 col-12">
-              <img src="assets/abstract.png" alt="abstract" />
+              <img src="assets/abstract.png" alt="abstract" class="img-fluid" />
               <div class="portfolio-badge">
                 <span class="portfolio-badge-head">Design</span>
                 <h3 class="portfolio-badge-main">Abstract</h3>
               </div>
             </div>
             <div class="img-each col-lg-4 col-md-12 col-sm-12 col-12">
-              <img src="assets/handp.png" alt="hand" />
+              <img src="assets/handp.png" alt="hand" class="img-fluid" />
               <div class="portfolio-badge">
                 <span class="portfolio-badge-head">Branding</span>
                 <h3 class="portfolio-badge-main">HandP</h3>
@@ -650,27 +673,27 @@
         <img
           src="assets/company-1.png"
           alt="company-1"
-          class="col-lg-1 col-md-6 col-sm-6 col-6"
+          class="company col-lg-1 col-md-5 col-sm-5 col-5"
         />
         <img
           src="assets/company-2.png"
           alt="company-2"
-          class="col-lg-1 col-md-6 col-sm-6 col-6"
+          class="company col-lg-1 col-md-5 col-sm-5 col-5"
         />
         <img
           src="assets/company-3.png"
           alt="company-3"
-          class="col-lg-1 col-md-6 col-sm-6 col-6"
+          class="company col-lg-1 col-md-5 col-sm-5 col-5"
         />
         <img
           src="assets/company-4.png"
           alt="company-4"
-          class="col-lg-1 col-md-6 col-sm-6 col-6"
+          class="company col-lg-1 col-md-5 col-sm-5 col-5"
         />
         <img
           src="assets/company-5.png"
           alt="company-5"
-          class="col-lg-1 col-md-6 col-sm-6 col-6"
+          class="company col-lg-1 col-md-5 col-sm-5 col-5"
         />
       </div>
       <div class="col-lg-9 col-md-8 col-sm-6 justify-content-center">
@@ -785,25 +808,37 @@
             </div>
           </div>
         </div>
-        <div class="blog-cards col-lg-12 col-md-9 col-sm-9 col-9 row">
-          <div class="blog-card col-lg-4 col-md-9 col-sm-9 col-9">
-            <img src="assets/blog-1.png" alt="blog-1" class="blog-img" />
+        <div class="blog-cards col-lg-12 col-md-12 col-sm-12 col-12 row">
+          <div class="blog-card col-lg-4 col-md-12 col-sm-12 col-12">
+            <img
+              src="assets/blog-1.png"
+              alt="blog-1"
+              class="blog-img col-lg-12 col-md-12 col-sm-12 col-12"
+            />
             <p class="blog-card-sub">Stories</p>
             <h4 class="blog-card-main col-lg-8">
               Agency is a business you hire to outsource
             </h4>
             <p class="blog-card-date">5 Nov, 2021</p>
           </div>
-          <div class="blog-card col-lg-4 col-md-9 col-sm-9 col-9">
-            <img src="assets/blog-2.png" alt="blog-1" class="blog-img" />
+          <div class="blog-card col-lg-4 col-md-12 col-sm-12 col-12">
+            <img
+              src="assets/blog-2.png"
+              alt="blog-1"
+              class="blog-img col-lg-12 col-md-12 col-sm-12 col-12"
+            />
             <p class="blog-card-sub">Design</p>
             <h4 class="blog-card-main col-lg-8">
               Outsource your digital marketing efforts
             </h4>
             <p class="blog-card-date">29 Oct, 2021</p>
           </div>
-          <div class="blog-card col-lg-4 col-md-9 col-sm-9 col-9">
-            <img src="assets/blog-3.png" alt="blog-1" class="blog-img" />
+          <div class="blog-card col-lg-4 col-md-12 col-sm-12 col-12">
+            <img
+              src="assets/blog-3.png"
+              alt="blog-1"
+              class="blog-img col-lg-12 col-md-12 col-sm-12 col-12"
+            />
             <p class="blog-card-sub">Marketing</p>
             <h4 class="blog-card-main col-lg-8">
               Your business with a variety of digital
@@ -827,7 +862,7 @@
           name="text"
           id="text"
           placeholder="Your Email"
-          class="col-lg-4 news-inp col-md-12 col-sm-12 col-12"
+          class="news-letter-input col-lg-4 news-inp col-md-12 col-sm-12 col-12"
         />
         <div class="news-btn col-lg-1 col-md-12 col-sm-12 col-12">
           <span class="news-span">Subscribe</span>
@@ -874,15 +909,21 @@
           </p>
           <div class="contact-icons">
             <div class="contact-icon">
-              <img src="assets/contact-icon-1.png" alt="logo" />
+              <span class="oval-logo2">
+                <img src="assets/contact-1.png" alt="logo" />
+              </span>
               <p class="contact-icon-text">2247 Lunetta Street, TX 76301</p>
             </div>
             <div class="contact-icon">
-              <img src="assets/contact-icon-1.png" alt="logo" />
+              <span class="oval-logo2">
+                <img src="assets/contact-2.png" alt="logo" />
+              </span>
               <p class="contact-icon-text">+1 (234) 567-89-00</p>
             </div>
             <div class="contact-icon">
-              <img src="assets/contact-icon-1.png" alt="logo" />
+              <span class="oval-logo2">
+                <img src="assets/contact-3.png" alt="logo" />
+              </span>
               <p class="contact-icon-text">info@agency.com</p>
             </div>
           </div>
@@ -890,7 +931,9 @@
       </div>
       <!------------------------- Help section ------------------------------->
       <div class="help-section col-lg-9 col-md-9 col-sm-9 col-9 row">
-        <div class="help-left col-lg-5 col-md-12 col-sm-12 col-12">
+        <div
+          class="help-left col-lg-5 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2"
+        >
           <h2 class="help-main col-lg-10">Help To Build Your Dream Project</h2>
           <p class="help-parra col-lg-11">
             A digital agency is a business you hire to outsource your digital
@@ -900,8 +943,14 @@
             <span class="help-span">Contact Now</span>
           </div>
         </div>
-        <div class="help-right col-lg-5 col-md-12 col-sm-12 col-12">
-          <img src="assets/help.png" alt="help" class="img-fluid" />
+        <div
+          class="help-right col-lg-5 col-md-12 col-sm-12 col-12 order-lg-2 order-md-1 order-sm-1 order-1"
+        >
+          <img
+            src="assets/help.png"
+            alt="help"
+            class="col-lg-12 col-md-12 col-sm-12 col-12"
+          />
         </div>
       </div>
     </div>

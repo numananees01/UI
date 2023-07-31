@@ -34,7 +34,9 @@
   color: white;
   text-decoration: none;
 }
-
+.nav-icon {
+  display: none;
+}
 .nav-logo {
   display: flex;
 }
@@ -86,6 +88,7 @@
   font-weight: 800;
   line-height: 80px; /* 111.111% */
   letter-spacing: -2px;
+  margin: 2rem 0px;
 }
 .hero-parra {
   flex-shrink: 0;
@@ -97,6 +100,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
+  margin: 2rem 0px;
 }
 .hero-buttons {
   display: flex;
@@ -141,6 +145,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 32px; /* 133.333% */
+  margin-top: 1rem;
 }
 .design-card-parra {
   flex-shrink: 0;
@@ -152,6 +157,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
+  margin-top: 1rem;
 }
 .design-card-secondary {
   color: var(--text-light, #fff);
@@ -184,7 +190,7 @@
   padding-left: 2rem;
   flex-shrink: 0;
   position: relative;
-  top: 79px;
+  top: 110px;
   display: flex;
   flex-direction: column;
   padding: 4rem 2rem;
@@ -231,10 +237,21 @@
   align-items: center;
   justify-content: center;
 }
+.oval-logo2 {
+  background-color: #ef6c57;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .design-btn {
   height: 32px;
   width: 84px;
   color: white;
+  margin-bottom: 2rem;
 }
 .design-section {
   display: flex;
@@ -304,8 +321,7 @@
   margin-bottom: 1rem;
 }
 .about-buttons {
-  width: 170px;
-  height: 48px;
+  padding: 1rem 0.1rem;
   flex-shrink: 0;
   border-radius: 6px;
   background: #b550f8;
@@ -339,6 +355,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 4rem;
 }
 .service-main {
   color: var(--text-light, #fff);
@@ -439,6 +456,7 @@
 }
 .experience-section {
   margin-bottom: 10rem;
+  margin-top: 4rem;
 }
 .experience-card-main {
   color: var(--text-dark, #391400);
@@ -560,7 +578,6 @@
 /*----------------------------------Portfolio section-------------------------*/
 .portfolio-section {
   margin-top: 4rem;
-  width: 100%;
 }
 .portfolio-sub {
   color: var(--text-dark-accent, #ef6d58);
@@ -654,15 +671,11 @@ sup {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   margin-bottom: 4rem;
 }
 .img-each {
-  /* width: 370px;
-  height: 416px; */
-  flex-shrink: 0;
   border-radius: 6px;
-  /* background: #5c2000; */
-  margin: 0px 0.5rem;
   position: relative;
 }
 
@@ -788,6 +801,7 @@ sup {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  margin-top: 6rem;
 }
 .testimonial-sub {
   color: var(--text-light-accent, #ef6d58);
@@ -823,11 +837,12 @@ sup {
 .testimonial-user-section {
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
+  padding: 1rem;
 }
 .testimonial-parra {
   color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
   font-feature-settings: "clig" off, "liga" off;
+  margin-top: 1.5rem;
 
   /* Text */
   font-family: Epilogue;
@@ -908,6 +923,9 @@ sup {
 }
 
 /* ----------------------------------------pricing------------------------------------- */
+.pricing-section {
+  margin-top: 6rem;
+}
 .pricing-sub {
   color: var(--text-dark-accent, #ef6d58);
   font-feature-settings: "clig" off, "liga" off;
@@ -1381,10 +1399,11 @@ sup {
 }
 .blog-cards {
   display: flex;
+  justify-content: center;
   margin: 4rem 0.5rem;
 }
 .blog-img {
-  width: 90%;
+  /* width: 100%; */
 }
 /*----------------------newsletter section----------------------- */
 .news-main {
@@ -1398,6 +1417,9 @@ sup {
   font-weight: 800;
   line-height: 48px; /* 120% */
 }
+.news-letter-input {
+  height: 50px;
+}
 .news-span {
   color: #fff;
   text-align: center;
@@ -1407,6 +1429,11 @@ sup {
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 1rem;
 }
 .news-btn {
   border-radius: 6px;
@@ -1494,7 +1521,7 @@ sup {
   background: #fff;
   display: flex;
   flex-direction: column;
-  padding: 4rem;
+  padding: 2rem;
   margin-right: 12rem;
 }
 .form-span {
@@ -1592,7 +1619,7 @@ sup {
 .help-section {
   border-radius: 6px;
   background: #ef6d58;
-  padding: 5rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1722,4 +1749,135 @@ sup {
   font-weight: 400;
   line-height: 32px; /* 200% */
 }
-/* added */
+.portfolio-select {
+  display: none;
+}
+
+/* -----------------Media Queries------------ */
+
+@media (max-width: 1166px) {
+  .nav-item {
+    display: none;
+  }
+  .nav-icon {
+    display: block;
+  }
+}
+
+/* for screens less than large */
+
+@media (max-width: 991px) {
+  /* Styles to apply for screens smaller than col-lg */
+  /* For example, you can hide or modify elements */
+  .portfolio-tags {
+    display: none;
+  }
+  .portfolio-select {
+    display: block;
+  }
+  .portfolio-images-2 {
+    display: none;
+  }
+  .news-btn {
+    margin-left: 0px;
+    margin-top: 1.5rem;
+  }
+  .news-letter-input {
+    margin-top: 1.5rem;
+  }
+  .award-logo {
+    justify-content: center;
+  }
+  .award-card-text {
+    justify-content: center;
+  }
+  .company {
+    margin: 1rem 0.4rem;
+  }
+  .testimonial-card {
+    margin-top: 0px;
+  }
+  .pricing-card-2 {
+    margin-top: 0px;
+  }
+  .design-card-2 {
+    top: 0px;
+  }
+  .margin-top-4 {
+    margin-top: 4rem;
+  }
+  .hero-main {
+    font-size: 56px;
+  }
+  .about-main {
+    font-size: 40px;
+  }
+  .testimonial-main {
+    font-size: 40px;
+  }
+  .testimonial-parra {
+    font-size: 16px;
+  }
+  .pricing-main {
+    font-size: 40px;
+  }
+  .design-main {
+    font-size: 40px;
+  }
+  .design-card-main {
+    font-size: 24px;
+  }
+  .img-each {
+    margin-top: 1rem;
+  }
+  .portfolio-badge-main {
+    font-size: 24px;
+  }
+  .portfolio-badge {
+    top: 60%;
+  }
+  .faq-cards {
+    margin-top: 4rem;
+  }
+  .blog-main {
+    font-size: 40px;
+  }
+  .blog-btns {
+    justify-content: start;
+  }
+  .contact-main {
+    font-size: 40px;
+  }
+  .help-main {
+    font-size: 40px;
+  }
+}
+
+/* for screens less than medium */
+
+@media (max-width: 767px) {
+  /* Styles to apply for screens smaller than col-md */
+  /* For example, you can hide or modify elements */
+
+  .social-icon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-main-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-social {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}
