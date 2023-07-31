@@ -705,6 +705,8 @@ sup {
   border-radius: 6px;
   padding: 2rem;
   background: #fdf0e9;
+  margin-bottom: 8rem;
+  margin-top: 6rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1850,6 +1852,35 @@ sup {
   }
   .help-main {
     font-size: 40px;
+  }
+  .award-card-main {
+    margin-left: 0px;
+    margin-top: 1.25rem;
+  }
+  .award-card-text {
+    flex-direction: column;
+  }
+  .award-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .layout-1 {
+    background-color: #28293e;
+    background: linear-gradient(to bottom, #28293e 82%, #fdf0e9 82%);
+  }
+  .layout-2 {
+    /* flex-shrink: 0; */
+    background: linear-gradient(to bottom, #fdf0e9 78%, #28293e 78%);
+  }
+  .layout-3 {
+    background: linear-gradient(to bottom, #28293e 92%, #fdf0e9 92%);
+  }
+  .layout-4 {
+    /* flex-shrink: 0; */
+    background: linear-gradient(to bottom, #fdf0e9 83%, #28293e 83%);
+  }
+  .layout-5 {
+    background: linear-gradient(to bottom, #28293e 92%, #fdf0e9 92%);
   }
 }
 
